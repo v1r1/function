@@ -1,0 +1,33 @@
+{
+  "name": "FUNCTION",
+  "description": "Extension to perform various actions across different sites",
+  "homepage_url": "http://viri.space",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["downloads", "activeTab", "declarativeContent", "storage"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "FUNCTION",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/viri_icon16.png",
+      "32": "images/viri_icon32.png",
+      "48": "images/viri_icon48.png",
+      "128": "images/viri_icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/viri_icon16.png",
+    "32": "images/viri_icon32.png",
+    "48": "images/viri_icon48.png",
+    "128": "images/viri_icon128.png"
+  }
+}
