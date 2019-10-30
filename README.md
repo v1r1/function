@@ -1,4 +1,4 @@
-<p align="center">FUNCTION</p>
+<h2 align="center">FUNCTION</h2>
 
 ***
 

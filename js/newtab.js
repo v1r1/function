@@ -40,6 +40,5 @@ else
 clockobj.innerHTML=hours+" : "+minutes+" "+"<sup style='font-size:70%'>"+dn+"</sup>"
 }
 alternate=(alternate==0)? 1 : 0
-setTimeout("show()",1000)
 }
 window.onload=show

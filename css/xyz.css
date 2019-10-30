@@ -2,11 +2,11 @@ body {
   min-width   : 300px;
   max-width   : 100%;
   height      : 100%;
-  min-height  : 800px;
+  min-height  : 600px;
   margin      : 10px;
   padding     : 0;
   color       : white;
-  border      : green 1px solid;
+  border      : lime 1px solid;
   background  : black;
   text-align  : center;
   font-family : arial;
@@ -28,11 +28,27 @@ h1 #f {
 h1 #t {
   color     : white;
   font-size : .5em;
-  padding-bottom: 20px;
+}
+
+main {
+  font-size: 1.3em;
+}
+
+footer {
+  bottom   : 0;
+  height   : 30px;
+  margin   : auto;
+}
+
+.border {
+  border: 1px solid lime;
+  margin: 10px;
+  padding: 10px;
 }
 
 #digitalclock {
   padding          : 3px;
+  padding-top      : 20px;
   color            : lime;
   background-color : black;
   font             : bold 16px MS Sans Serif;
@@ -65,11 +81,4 @@ h1 #t {
 #body {
   padding        : 10px;
   padding-bottom : 80px;
-}
-
-footer {
-  position : absolute;
-  bottom   : 0;
-  height   : 30px;
-  margin   : auto;
 }
