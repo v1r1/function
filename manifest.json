@@ -13,7 +13,8 @@
     "activeTab",
     "declarativeContent",
     "storage",
-    "contextMenus"
+    "contextMenus",
+    "bookmarks"
   ],
   "options_page": "html/options.html",
   "background": {
